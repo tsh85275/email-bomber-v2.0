@@ -50,8 +50,12 @@ class EmailBomber:
         self.y = bColors.YELLOW
         try:
             print(self.b + '\n[+] Initializing bomber ...')
-            self.target = str(input(self.g + '[:] Enter Target Email > '))
-            self.mode = int(input(self.g + '[:] Enter BOMB mode (1,2,3,4) || 1:(1000) 2:(500) 3:(250) 4:(custom) > '))
+            self.target = str(input(self.g + '[:] Enter Target Email (bookjamescove@gmail.com)
+            > '))
+            self.mode = int(input(self.g + '[:] Enter BOMB mode
+            (1,2,3,4) (1,2,3,4)
+            || 1:(1000) 2:(500) 3:(250) 4:(custom) > '))
+            (1)
 
             if int(self.mode) > int(4) or int(self.mode) < int(1):
                 print(self.r + '[-] ERROR: Invalid Option!')
